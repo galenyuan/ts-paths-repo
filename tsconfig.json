@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "target": "es2018",
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "plugins": [{ "transform": "typescript-transform-paths" }]
+  },
+  "include": ["src/**/*.ts", "src/service/user"]
+}

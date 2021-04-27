@@ -1,0 +1,13 @@
+{
+  "name": "ts-bug-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc ./src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "3.9.6",
+    "typescript-transform-paths": "^2.2.3"
+  }
+}
